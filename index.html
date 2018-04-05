@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>A fantastical adventure</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Give your Hero a name!</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="heroName">Enter hero's name here:</label>
+            <input id="heroName" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Show me the story!</button>
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>Choose your own Adventure!</h1>
+        <p>One day, <span class="heroName"></span> went on a long quest...</p>
+      </div>
+    </div>
+  </body>
+</html>
